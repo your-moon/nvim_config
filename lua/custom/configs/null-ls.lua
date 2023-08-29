@@ -28,8 +28,7 @@ end
 local sources = {
 
   --php
-  b.diagnostics.phpcs,
-  b.formatting.phpcbf.with({ extra_args = { "--standard=PSR12" } }),
+  b.formatting.pint,
   -- python
   b.diagnostics.ruff,
   b.formatting.black,

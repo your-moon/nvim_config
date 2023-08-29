@@ -93,7 +93,8 @@ local plugins = {
         "php-cs-fixer",
         "phpcbf",
         "clang-format",
-        "phpcs"
+        "phpcs",
+        "pint"
       },
     }
   },
